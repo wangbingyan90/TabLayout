@@ -20,6 +20,6 @@ public class MainActivity extends BaseActivity {
     }
 
     public void complete(View v){
-//        startActivity(new Intent(this, HomeActivity.class));
+        startActivity(new Intent(this, HomeActivity.class));
     }
 }

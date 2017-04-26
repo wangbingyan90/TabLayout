@@ -4,8 +4,31 @@
     android:id="@+id/tb_toolbar"
     android:layout_width="match_parent"
     android:layout_height="56dp"
-    app:titleTextColor="@color/white"
-    app:title="@string/app_name"
-    app:theme="@style/OverFlowMenuTheme"
+    app:theme="@style/AppTheme"
     app:popupTheme="@style/AppTheme"
-    android:background="@color/blue" />
+    app:titleTextColor="@color/white"
+    app:title="失物求助"
+    android:background="@drawable/top" >
+
+
+    <!--<ImageView-->
+        <!--android:id="@+id/imageView"-->
+        <!--android:layout_width="56dp"-->
+        <!--android:src="@drawable/log"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="left"-->
+        <!--/>-->
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textColor="@color/white"-->
+        <!--android:textSize="23dp"-->
+
+        <!--android:text="失物求助"-->
+
+        <!--/>-->
+
+
+
+
+</android.support.v7.widget.Toolbar>
